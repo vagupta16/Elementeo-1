@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p 
+
+  .container
+    .navbar.navbar-fixed-top.navbar-inverse
+      .navbar-inner
+        .container-fluid
+          ul.nav
+            li
+              a.brand(href='#') Elementeo
+            li
+              a.brand(href='#')
+                i.icon-circle.icon-large(id='elementIcon')
+            li
+              a.brand(href='#')
+                i.icon-beaker.icon-large(id='diyIcon')
+            li
+              a.brand(href='#')
+                i.icon-bolt.icon-large(id='playIcon')
+            li
+              a.brand(href='#')
+                i.icon-user.icon-large(id='userIcon')
+          form.navbar-search.pull-right
+            input.search-query(type='text', placeholder='Search')
+
+    img(id='periodicTable', src='../public/images/periodictablemockCurl.png')
+
+
