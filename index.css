@@ -1,3 +1,11 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
 .navbar-inverse .navbar-inner {
 	background-color: black;
 	background-image: none;
@@ -11,10 +19,7 @@ body {
 	font-size: 16;
 	color: white;
 	background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/stressed_linen.png);
-       		
 }
-
-
 
 #elementIcon {
 	color: #5CCCCC;
@@ -46,28 +51,194 @@ body {
 
 }
 
-#compoundtable {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	width: 650px;
-	height: 650px;
-
-}
-
-#alchemytable {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-top: 15%;
-	width: 1000px;
-	height: 250px;
-
-}
-
 #bottomBar {
 	text-align: right;
 	color: gray;
+}
+
+.links {
+	font-family: Helvetica;
+	text-align: right;
+	padding-right: 10px;
+	color: gray;
+	letter-spacing: 1px;
+	padding-top: 10px;
+	word-spacing: 10px;
+	margin-right: 10px;
+}
+
+.AboutLink {
+	color: #5CCCCC;
+}
+
+.TeamLink {
+	color: #5CCCCC;
+}
+
+.ContactLink {
+	color: #5CCCCC;
+}
+
+/*The CSS for ABout Page*/
+
+.span4 {
+	margin-left: 50px;
+	height: 680px;
+	opacity: 1;
+	border-radius: 10px;
+	color: black;
+}
+
+.ElementeoAboutText{
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	font-weight: 50px;
+	font-weight: 900;
+	line-height: 30px
+}
+
+.email {
+	margin-left: 5px;
+}
+
+.span8 {
+	height: 100%;
+	width: 67%;
+	opacity: .89;
+}
+
+#panorama {
+	border-radius: 10px;
+	height: 680px;
+	width: 1300px;
+}
+
+/* Team */
+
+#Varun {
+	width: 200px;
+	height: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	border-radius: 150px;
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 200px;
+}
+
+#Anshul {
+	width: 200px;
+	height: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	border-radius: 150px;
+	position: absolute;
+	margin-left: 850px;
+	margin-top: 200px;
+
+}
+
+#Rubidium {
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 50px;
+	opacity: .6;
+
+}
+
+#Supernova {
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 500px;	
+		opacity: .6;
+
+}
+#Vanadium {
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	margin-left: 1200px;
+	margin-top: 150px;
+		opacity: .6;
+
+}
+#Chlorine {
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 600px;
+		opacity: .6;
+
+}
+
+#Argon {
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 200px;
+		opacity: .6;
+
+}
+#Germanium {
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	margin-left: 1150px;
+	margin-top: 550px;
+		opacity: .6;
+
+}
+
+
+
+.VarunBio {
+	position: absolute;
+	margin-left: 425px;
+	margin-top: 425px;
+	width: 150px;
+}
+
+.AnshulBio {
+	position: absolute;
+	margin-left: 875px;
+	margin-top: 425px;
+	width: 150px;
+}
+
+.theTeam {
+	position: absolute;
+	margin-left: 670px;
+	margin-top: 550px;
+	font-size: 20px;
+}
+
+.media-grid{
+	height: 10%;
+	width: 10%;
 }
